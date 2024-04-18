@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #372f2c;
+}
+
+h1 {
+	font-family: "Bungee Inline", sans-serif;
+	color: #15c79f;
+	font-size: 5rem;
+}
+
+h3 {
+	color: white;
+	font-family: "Average", serif;
+	border-bottom: 2px solid orange;
+	display: inline-block;
+}
+
+.myintro {
+	& p {
+		font-family: "Average", serif;
+		font-size: 1.5rem;
+		color: white;
+	}
+
+	& img {
+		position: absolute;
+		border-radius: 1rem;
+		outline: 0.5px solid #00ffcd;
+		outline-offset: 0.2rem;
+	}
+
+	.images {
+		height: 100vh;
+	}
+
+	#i1 {
+		width: 65vw;
+		aspect-ratio: 1/0.5;
+		transition: all 0.5s ease;
+
+		&:hover {
+			z-index: 1;
+			transform:scale(1.1);
+		}
+
+	}
+
+	#i2 {
+		width: 45vw;
+		aspect-ratio: 1/0.5;
+		top: 15rem;
+		transition: all 0.5s ease;
+
+		&:hover {
+			z-index: 1;
+			transform:scale(1.1);
+		}
+
+	}
+
+	#i3 {
+		width: 30vw;
+		aspect-ratio: 1/0.5;
+		top: 25rem;
+		transition: all 0.5s ease;
+
+		&:hover {
+			transform:scale(1.1);
+		}
+	}
+
+}
+
+.history {
+	font-family: "Average", serif;
+	p {
+		text-align: justify;
+		color: white;
+		
+	}
+
+	#historyText {
+		text-align: justify;
+		color: white;
+	}
+
+}
+
+#joy {
+	width: 100%;
+	aspect-ratio: 1/0.3;
+	border-radius:1rem;
+}
+
+.popular {
+	.card{
+		width:100%;
+	}
+	font-family: "Average", serif;
+
+	h3 {
+		color: white;
+		border-bottom: 2px solid orange;
+		display: inline-block;
+	}
+
+	img {
+		width: 100%;
+		aspect-ratio: 1/0.5;
+	}
+
+}
+
+.special{
+	font-family: "Average", serif;
+	img{
+		width:50%;
+		aspect-ratio: 1/0.5;
+		border-radius: 10rem;
+	}
+	p{
+	width: 50%;
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+	}
+}
+.quotes{
+	font-family: "Average", serif;
+	    font-family: "Average", serif;
+    border: 2px dashed black;
+    background: #283439;
+    padding: 1rem;
+	p{
+		color:white;
+		margin:0;
+		width:100%;
+		text-align:center;
+	}
+	q {
+      color: #ffca00;
+    font-style: italic;
+}
+q:before{
+      content: open-quote;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 1.5rem;
+    line-height: normal;
+    color: #5e5b87;
+}
+
+q:after {
+  content: close-quote;
+   font-weight: bold;
+    margin: 5px;
+    font-size: 1.5rem;
+    line-height: 0;
+    color: #5e5b87;
+}
+img{
+	    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+}
+}
+

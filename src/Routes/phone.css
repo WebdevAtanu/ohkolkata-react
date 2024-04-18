@@ -1,0 +1,36 @@
+@media screen and (max-width:500px) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	.myintro {
+		.images {
+			height: 50vh;
+		}
+
+		& p {
+			font-size: 1rem;
+		}
+
+		#i2 {
+			top: 5rem;
+		}
+
+		#i3 {
+			top: 8rem;
+		}
+
+	}
+	.special{
+	img{
+		width:95%;
+	}
+	p{
+	width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+	}
+}
+
+}
