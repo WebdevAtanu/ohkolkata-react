@@ -16,7 +16,7 @@ return(
 						<img src="image/place/victoria.jpg" className="card-img-top" alt=""/>
 						<div className="card-body">
 							<h5 className="card-title">Victoria Memorial</h5>
-							<p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<p className="card-text">The Victoria Memorial is a large marble monument on the Maidan in Central Kolkata, having its entrance on the Queen's Way. It was built between 1906 and 1921 by the Government of India. It is dedicated to the memory of Queen Victoria, the Empress of India from 1876 to 1901.</p>
 						</div>
 						<div className="card-body">
 							<a href="#" className="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-geo-alt" viewBox="0 0 16 16">
