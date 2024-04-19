@@ -41,9 +41,11 @@ hr {
 
 .navbar-toggler {
 	background: transparent;
+  border:none;
 }
 .navbar-toggler-icon{
   color:white;
+  background:white;
 }
 
 .myintro {
