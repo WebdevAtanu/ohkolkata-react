@@ -42,10 +42,18 @@ hr {
 .navbar-toggler {
 	background: transparent;
   border:none;
+  &:hover{
+  border:none;
+}
+&:active{
+  border:none;
+}
+&:focus{
+  border:none;
+}
 }
 .navbar-toggler-icon{
   color:white;
-  background:white;
 }
 
 .myintro {
