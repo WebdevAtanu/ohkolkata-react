@@ -4,7 +4,7 @@
 .popular {
 	.card {
 		width: 100%;
-		aspect-ratio: 1;
+		height:100%;
 		background: #07273c;
 	}
 
