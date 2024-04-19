@@ -11,7 +11,7 @@ return(
 		</div>
 		{/* place cards */}
 		<div className="row g-3 pop_places">
-			<div className="col-md-4 col-sm-6 col-xs-12">
+			<div className="col-md-6 col-sm-6 col-xs-12">
 				<div className="container d-flex justify-content-center">
 					<div className="card">
 						<img src="image/place/victoria.jpg" className="card-img-top" alt=""/>
@@ -25,7 +25,7 @@ return(
 					</div>
 				</div>
 			</div>
-			<div className="col-md-4 col-sm-6 col-xs-12">
+			<div className="col-md-6 col-sm-6 col-xs-12">
 				<div className="container d-flex justify-content-center">
 					<div className="card">
 						<img src="image/place/aquatica.jpg" className="card-img-top" alt=""/>
@@ -39,7 +39,7 @@ return(
 					</div>
 				</div>
 			</div>
-			<div className="col-md-4 col-sm-6 col-xs-12">
+			<div className="col-md-6 col-sm-6 col-xs-12">
 				<div className="container d-flex justify-content-center">
 					<div className="card">
 						<img src="image/place/stpaul.jpeg" className="card-img-top" alt=""/>
@@ -53,7 +53,7 @@ return(
 					</div>
 				</div>
 			</div>
-			<div className="col-md-4 col-sm-6 col-xs-12">
+			<div className="col-md-6 col-sm-6 col-xs-12">
 				<div className="container d-flex justify-content-center">
 					<div className="card">
 						<img src="image/place/belur.jpeg" className="card-img-top" alt=""/>
@@ -67,7 +67,7 @@ return(
 					</div>
 				</div>
 			</div>
-			<div className="col-md-4 col-sm-6 col-xs-12">
+			<div className="col-md-6 col-sm-6 col-xs-12">
 				<div className="container d-flex justify-content-center">
 					<div className="card">
 						<img src="image/place/birla.jpeg" className="card-img-top" alt=""/>
@@ -81,7 +81,7 @@ return(
 					</div>
 				</div>
 			</div>
-			<div className="col-md-4 col-sm-6 col-xs-12">
+			<div className="col-md-6 col-sm-6 col-xs-12">
 				<div className="container d-flex justify-content-center">
 					<div className="card">
 						<img src="image/place/science.jpeg" className="card-img-top" alt=""/>
@@ -95,7 +95,7 @@ return(
 					</div>
 				</div>
 			</div>
-			<div className="col-md-4 col-sm-6 col-xs-12">
+			<div className="col-md-6 col-sm-6 col-xs-12">
 				<div className="container d-flex justify-content-center">
 					<div className="card">
 						<img src="image/place/princep.jpeg" className="card-img-top" alt=""/>
@@ -110,7 +110,7 @@ return(
 					</div>
 				</div>
 			</div>
-			<div className="col-md-4 col-sm-6 col-xs-12">
+			<div className="col-md-6 col-sm-6 col-xs-12">
 				<div className="container d-flex justify-content-center">
 					<div className="card">
 						<img src="image/place/birla1.jpeg" className="card-img-top" alt=""/>
@@ -124,7 +124,7 @@ return(
 					</div>
 				</div>
 			</div>
-			<div className="col-md-4 col-sm-6 col-xs-12">
+			<div className="col-md-6 col-sm-6 col-xs-12">
 				<div className="container d-flex justify-content-center">
 					<div className="card">
 						<img src="image/place/eco.jpg" className="card-img-top" alt=""/>
@@ -139,7 +139,7 @@ return(
 					</div>
 				</div>
 			</div>
-			<div className="col-md-4 col-sm-6 col-xs-12">
+			<div className="col-md-6 col-sm-6 col-xs-12">
 				<div className="container d-flex justify-content-center">
 					<div className="card">
 						<img src="image/place/dakshineswar.jpeg" className="card-img-top" alt=""/>
@@ -153,7 +153,7 @@ return(
 					</div>
 				</div>
 			</div>
-			<div className="col-md-4 col-sm-6 col-xs-12">
+			<div className="col-md-6 col-sm-6 col-xs-12">
 				<div className="container d-flex justify-content-center">
 					<div className="card">
 						<img src="image/place/nicco.jpeg" className="card-img-top" alt=""/>
@@ -167,7 +167,7 @@ return(
 					</div>
 				</div>
 			</div>
-			<div className="col-md-4 col-sm-6 col-xs-12">
+			<div className="col-md-6 col-sm-6 col-xs-12">
 				<div className="container d-flex justify-content-center">
 					<div className="card">
 						<img src="image/place/museum.jpg" className="card-img-top" alt=""/>
