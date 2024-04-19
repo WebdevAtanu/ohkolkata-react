@@ -40,7 +40,10 @@ hr {
 }
 
 .navbar-toggler {
-	background: white;
+	background: transparent;
+}
+.navbar-toggler-icon{
+  color:white;
 }
 
 .myintro {
