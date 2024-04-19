@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #031d2e;
+}
+
+h1 {
+	font-family: "Bungee Inline", sans-serif;
+	color: #15c79f;
+	font-size: 5rem;
+}
+
+h3 {
+	color: white;
+	font-family: "Average", serif;
+	display: inline-block;
+}
+
+hr {
+	background: orange;
+	height: 0.3rem;
+	width: 15%;
+	margin: 0 auto 2rem auto;
+	opacity: 1;
+}
+
+.navbar {
+	background: #142b3b !important;
+}
+
+.nav-link {
+	color: orange !important;
+	font-family: "Average", serif;
+}
+
+.navbar-toggler {
+	background: white;
+}
+
+.myintro {
+	& p {
+		font-family: "Average", serif;
+		color: white;
+	}
+
+	& img {
+		position: absolute;
+		border-radius: 1rem;
+		outline: 0.5px solid #00ffcd;
+		outline-offset: 0.2rem;
+	}
+
+	.images {
+		height: 100vh;
+		width: 100%;
+	}
+
+	#i1 {
+		width: 100%;
+		aspect-ratio: 1/0.5;
+		transition: all 0.5s ease;
+
+		&:hover {
+			z-index: 1;
+			transform: scale(1.1);
+		}
+
+	}
+
+	#i2 {
+		width: 90%;
+		aspect-ratio: 1/0.5;
+		top: 5rem;
+		transition: all 0.5s ease;
+
+		&:hover {
+			z-index: 1;
+			transform: scale(1.1);
+		}
+
+	}
+
+	#i3 {
+		width: 80%;
+		aspect-ratio: 1/0.5;
+		top: 10rem;
+		transition: all 0.5s ease;
+
+		&:hover {
+			transform: scale(1.1);
+		}
+
+	}
+
+}
+
+.taglines {
+	h3 {
+		color: orange;
+		font-family: "Average", serif;
+		border: none;
+	}
+
+	p {
+		font-family: "Average", serif;
+	}
+
+	button {
+		outline: 0.5px solid orange;
+		font-family: "Average", serif;
+		color: white;
+
+		&:hover {
+			color: orange;
+			outline: 0.5px solid orange;
+		}
+
+		&:focus {
+			color: orange;
+			outline: 0.5px solid orange;
+		}
+
+	}
+
+}
+
+.history {
+	font-family: "Average", serif;
+
+	p {
+		text-align: justify;
+		color: white;
+	}
+
+	#historyText {
+		text-align: justify;
+		color: white;
+	}
+
+}
+
+#joy {
+	width: 100%;
+	aspect-ratio: 1/0.3;
+	border-radius: 1rem;
+}

@@ -1,7 +1,8 @@
-import {Intro} from "./Routes/Intro.js";
-import {Place} from "./Routes/Place.js";
-import {Special} from "./Routes/Special.js";
-import {Quote} from "./Routes/Quote.js";
+import {Intro} from "./Routes/intro/Intro.js";
+import {Place} from "./Routes/places/Place.js";
+import {Special} from "./Routes/specials/Special.js";
+import {Quote} from "./Routes/quotes/Quote.js";
+import {Footer} from "./Routes/footer/Footer.js";
 function App() {
   return (
     <div>
@@ -9,6 +10,7 @@ function App() {
     <Place></Place>
     <Special></Special>
     <Quote></Quote>
+    <Footer></Footer>
     </div>
   );
 }

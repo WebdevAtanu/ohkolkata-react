@@ -1,0 +1,16 @@
+@media screen and (max-width:500px) {
+	.special {
+		img {
+			width: 95%;
+		}
+
+		p {
+			width: 100%;
+			margin-top: 1rem;
+			text-align: center;
+			color: white;
+		}
+
+	}
+
+}

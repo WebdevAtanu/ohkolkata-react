@@ -21,16 +21,13 @@
 		}
 
 	}
-	.special{
-	img{
-		width:95%;
+
+	.taglines {
+		text-align: center;
 	}
-	p{
-	width: 100%;
-    margin-top: 1rem;
-    text-align: center;
-    color: white;
+
+	.history {
+		margin-top: 5rem;
 	}
-}
 
 }

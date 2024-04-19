@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average&display=swap');
+
+.special {
+	font-family: "Average", serif;
+
+	.special_contain {
+		width: 100%;
+		height: 100%;
+		padding: 1rem;
+		backdrop-filter: brightness(0.9);
+
+		img {
+			width: 40%;
+			aspect-ratio: 1;
+			clip-path: circle(50% at 50% 50%);
+		}
+
+		h5,
+		p {
+			margin-top: 1rem;
+			text-align: center;
+			color: white;
+		}
+
+		h5 {
+			color: orange;
+		}
+
+	}
+
+}
