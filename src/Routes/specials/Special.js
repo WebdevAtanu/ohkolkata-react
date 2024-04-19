@@ -5,7 +5,7 @@ return(
 <div>
 	<div className="container special mt-4">
 		<div className="text-center">
-			<h3 className="mb-4 mt-4">Why Kolkata is special</h3>
+			<h3 className="mt-4">Why Kolkata is special</h3>
 		</div>
 		<hr></hr>
 		<div className="row g-1">

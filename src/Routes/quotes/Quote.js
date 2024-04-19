@@ -5,7 +5,8 @@ return(
 <div>
 	<div className="container quote mt-4">
 		<div className="text-center">
-			<h3 className="mb-4">What people say</h3>
+			<h3>What people say</h3>
+			<hr></hr>
 		</div>
 		<div className="container">
 			<div className="row g-2">
@@ -48,9 +49,9 @@ return(
 			</div>
 		</div>
 		
-	
-	
-</div>
+		
+		
+	</div>
 </div>
 )
 }

@@ -18,6 +18,9 @@
 		& span a {
 			text-decoration: none;
 			color: #15c79f;
+			&:hover{
+				color:orange;
+			}
 		}
 
 	}
