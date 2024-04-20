@@ -6,7 +6,7 @@ return(
 	
 	<div className="container-fluid footer mt-5 g-0">
 	<div className="text-center">
-	<h3>Bird's-eye view</h3>
+	<h3 className="mt-3">Bird's-eye view</h3>
 	<hr></hr>
 	</div>
 		<div className="container">
