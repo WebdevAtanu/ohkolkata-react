@@ -3,14 +3,10 @@
 
 .quotes {
   font-family: "Average", serif;
-  background: #10334a;
   padding: 1rem;
 width: 100%;
 height :100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-        box-shadow: inset 0px 15px 0px 0px #e93467;
+        box-shadow: inset 0px 15px 0px 0px #15c79f;
 
 
 
@@ -50,5 +46,12 @@ height :100%;
     margin: 0.5rem;
     border-radius: 50%;
   }
+  h5{
+    color:orange;
+  }
 
 }
+
+  .slick-dots li button:before {
+    color:white !important;
+  }

@@ -31,3 +31,18 @@
 	}
 
 }
+
+@media screen and (max-width:1000px) {
+	.navbar-toggler {
+		& svg {
+			color: orange;
+			display: block;
+		}
+
+	}
+
+	.navbar-brand {
+		width: 10%;
+	}
+
+}

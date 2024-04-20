@@ -1,12 +1,13 @@
 import "./style.css";
 import "./phone.css";
+import {Victoria} from "./moreRoute/Victoria.js";
 export function Place(){
 return(
 <div>
 	
 	<div className="container popular">
 		<div className="text-center">
-			<h3 className="mb-4">Most popular places</h3>
+			<h3 className="">Most popular places</h3>
 			<hr></hr>
 		</div>
 		{/* place cards */}

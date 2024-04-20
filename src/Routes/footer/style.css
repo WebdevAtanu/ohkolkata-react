@@ -8,3 +8,28 @@ iframe{
 	width:100%;
 	aspect-ratio:1/0.5;
 }
+h4{
+	font-family: "Average", serif;
+	color:orange;
+}
+.quicks{
+	background:#142b3b;
+	& img{
+		width:100%;
+	}
+	summary{
+		font-size:1.2rem;
+	}
+	details{
+		color:white;
+		font-family: "Average", serif;
+		& P{
+			margin:0 1.5rem !important;
+			& a{
+				text-decoration:none;
+				color:#15c79f;
+			}
+
+		}
+	}
+}
