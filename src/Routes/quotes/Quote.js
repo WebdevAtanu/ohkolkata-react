@@ -16,38 +16,38 @@ cssEase: "linear",
 };
 return(
 <div>
-	<div className="container text-center">
+	<div className="container text-center pt-3">
 		<h3>What people say</h3>
 		<hr></hr>
 	</div>
 	<div className="container mt-4">
 		<Slider {...settings}>
-		<div className="container quotes">
+		<div className="container quotes" id="q1">
 			<div className="d-flex justify-content-center"><img src="image/quote/man1.jpg" alt=""/></div>
 			<p><q>Calcutta is the only city I know where you are actively encouraged to stop strangers at random for a quick chat.</q></p>
 			<h5 className="text-center mt-4">Tahir Shah</h5>
 		</div>
-		<div className="container quotes">
+		<div className="container quotes" id="q2">
 			<div className="d-flex justify-content-center"><img src="image/quote/man1.jpg" alt=""/></div>
 			<p><q>Calcutta is like another world. People, there are very special and grateful.</q></p>
-			<h5 className="text-center mt-4 text-light">Penelope Cruz</h5>
+			<h5 className="text-center mt-4">Penelope Cruz</h5>
 		</div>
-		<div className="container quotes">
+		<div className="container quotes" id="q3">
 			<div className="d-flex justify-content-center"><img src="image/quote/man1.jpg" alt=""/></div>
 			<p><q>Kolkata always opens its heart to me and I am a sucker for love.</q></p>
 			<h5 className="text-center mt-4">Vidya Balan</h5>
 		</div>
-		<div className="container quotes">
+		<div className="container quotes" id="q4">
 			<div className="d-flex justify-content-center"><img src="image/quote/man1.jpg" alt=""/></div>
 			<p><q>Bengalis love to celebrate their language, their culture, their fierce attachment to a city that has been famously dying for more than a century.</q></p>
 			<h5 className="text-center mt-4">Bharti Mukherjee</h5>
 		</div>
-		<div className="container quotes">
+		<div className="container quotes" id="q5">
 			<div className="d-flex justify-content-center"><img src="image/quote/man1.jpg" alt=""/></div>
 			<p><q>Calcutta is beautiful Wherever you place a camera, you get a vision.</q></p>
 			<h5 className="text-center mt-4">Carlos Ruiz Zafon</h5>
 		</div>
-		<div className="container quotes">
+		<div className="container quotes" id="q6">
 			<div className="d-flex justify-content-center"><img src="image/quote/man1.jpg" alt=""/></div>
 			<p><q>Calcutta has still not recovered from history” people mourn the past, and abhor it deeply.</q></p>
 			<h5 className="text-center mt-4">Pradeep Sarkar</h5>

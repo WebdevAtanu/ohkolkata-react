@@ -23,7 +23,7 @@ h3 {
 }
 
 hr {
-	background: orange;
+	background: #ff7010;
 	height: 0.3rem;
 	width: 15%;
 	margin: 0 auto 2rem auto;
@@ -43,8 +43,7 @@ hr {
 	color: white !important;
 	font-family: "Average", serif;
 	&:hover{
-		color:orange !important;
-		border-bottom:1px solid orange;
+		color:#ff7010 !important;
 	}
 }
 
@@ -52,12 +51,14 @@ hr {
 	all: unset !important;
 
 	& svg {
-		color: orange;
+		color: #ff7010;
 		display: none;
 	}
 
 }
-
+.navbar-collapse {
+    transition: all 0.8s ease;
+}
 .myintro {
 	& p {
 		font-family: "Average", serif;
@@ -117,7 +118,7 @@ hr {
 
 .taglines {
 	h3 {
-		color: orange;
+		color: #ff7010;
 		font-family: "Average", serif;
 		border: none;
 	}
@@ -127,18 +128,18 @@ hr {
 	}
 
 	button {
-		outline: 0.5px solid orange;
+		outline: 0.5px solid #ff7010;
 		font-family: "Average", serif;
 		color: white;
 
 		&:hover {
-			color: orange;
-			outline: 0.5px solid orange;
+			color: #ff7010;
+			outline: 0.5px solid #ff7010;
 		}
 
 		&:focus {
-			color: orange;
-			outline: 0.5px solid orange;
+			color: #ff7010;
+			outline: 0.5px solid #ff7010;
 		}
 
 	}

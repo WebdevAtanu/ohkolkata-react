@@ -19,7 +19,7 @@
 			text-decoration: none;
 			color: #15c79f;
 			&:hover{
-				color:orange;
+				color:#ff7010;
 			}
 		}
 
@@ -33,7 +33,7 @@
 	}
 
 	h5 {
-		color: orange;
+		color: #ff7010;
 	}
 
 	img {

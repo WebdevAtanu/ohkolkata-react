@@ -33,7 +33,7 @@ return(
 		<div className="row g-3">
 			<div className="col-md-6">
 				<div className="container taglines">
-					<h3>Planning to visit Kolkata?</h3>
+					<h3>Planning to visit the beautiful places in Kolkata?</h3>
 					<p className="m-0">We are here to serve you the best experience.</p>
 					<p>Get in touch.</p>
 					<button type="button" className="btn">Contact us</button>

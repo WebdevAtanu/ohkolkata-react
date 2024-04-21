@@ -1,35 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Average&display=swap');
 
-.footer{
-	background:#031a29;
+.footer {
+	background: #142b3b;
 }
-iframe{
-	width:100%;
-	aspect-ratio:1/0.5;
+
+iframe {
+	width: 100%;
+	aspect-ratio: 1/0.5;
 }
-h4{
+
+h4 {
 	font-family: "Average", serif;
-	color:orange;
+	color: #ff7010;
 }
-.quicks{
-	background:#142b3b;
-	& img{
-		width:100%;
-	}
-	summary{
-		font-size:1.2rem;
-	}
-	details{
+
+.quicks {
+	background: #142b3b;
+	& p{
 		color:white;
 		font-family: "Average", serif;
-		& P{
-			margin:0 1.5rem !important;
-			& a{
-				text-decoration:none;
-				color:#15c79f;
+	}
+
+	& img {
+		width: 40%;
+	}
+
+	summary {
+		font-size: 1.2rem;
+	}
+
+	details {
+		color: white;
+		font-family: "Average", serif;
+
+		& P {
+			margin: 0 1.5rem !important;
+
+			& a {
+				text-decoration: none;
+				color: #15c79f;
 			}
 
 		}
+
 	}
+	.contact{
+		font-family: "Average", serif;
+	}
+	.footIcons{
+		color:#15c79f;
+	}
+	table tr td{
+		padding:0.5rem;
+		vertical-align:top;
+	}
+	.social{
+		gap:0.5rem;
+		li a{
+			color:#15c79f;
+			& :hover{
+				color:#ff7010;
+			}
+		}
+	}
+
 }
