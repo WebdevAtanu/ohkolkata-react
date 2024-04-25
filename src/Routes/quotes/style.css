@@ -5,6 +5,7 @@
   font-family: "Average", serif;
   padding: 1rem;
   height: 100%;
+  background:#05162147;
 
   p {
     color: white;
@@ -44,7 +45,7 @@
   }
 
   h5 {
-    color: #ff7010;
+    color: #15c79f;
   }
 
 }

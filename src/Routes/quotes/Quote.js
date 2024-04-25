@@ -17,7 +17,7 @@ cssEase: "linear",
 return(
 <div>
 	<div className="container text-center pt-3">
-		<h3>What people say</h3>
+		<h3 className="mt-5">What people say</h3>
 		<hr></hr>
 	</div>
 	<div className="container mt-4">

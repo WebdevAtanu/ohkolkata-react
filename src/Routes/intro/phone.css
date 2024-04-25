@@ -35,7 +35,7 @@
 @media screen and (max-width:1000px) {
 	.navbar-toggler {
 		& svg {
-			color: orange;
+			color: #ff7010;
 			display: block;
 		}
 

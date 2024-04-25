@@ -5,7 +5,7 @@ return(
 <div>
 	<div className="container special mt-4">
 		<div className="text-center">
-			<h3 className="mt-4">Why Kolkata is special</h3>
+			<h3 className="mt-5">Why Kolkata is special</h3>
 		</div>
 		<hr></hr>
 		<div className="row g-1">
@@ -68,6 +68,13 @@ return(
 					<div className="text-center"><img src="image/special/station.jpeg" alt=""/></div>
 					<h5>Howrah Railway Station</h5>
 					<p>Howrah railway station (also known as Howrah Junction) is a railway station located in the city of Howrah. It is the largest and busiest railway complex in India as well as one of the busiest and largest train stations in the world.</p>
+				</div>
+			</div>
+			<div className="col-md-4 col-sm-6 col-xs-12">
+				<div className="container special_contain">
+					<div className="text-center"><img src="image/special/football.jpg" alt=""/></div>
+					<h5>Football</h5>
+					<p>Football has always been the major sport in Bengal because of the culture and history, the two old clubs East Bengal and Mohun Bagan are the oldest clubs in India, and Mohun Bagan being a club, even older than clubs like Chelsea and Real Madrid.</p>
 				</div>
 			</div>
 		</div>

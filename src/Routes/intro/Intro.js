@@ -1,6 +1,10 @@
 import "./style.css";
 import "./phone.css";
+// import {test} from "./test.js";
 export function Intro(){
+	function usrAlert(){
+	alert("Available Soon");
+}
 return(
 <div>
 	{/* navbar */}
@@ -27,7 +31,7 @@ return(
 			</div>
 		</div>
 	</nav>
-	<h1 className="text-center">Hello! Kolkata</h1>
+	<h1 className="text-center mt-2">Hello! Kolkata</h1>
 	{/* intro */}
 	<div className="container p-2 myintro">
 		<div className="row g-3">
@@ -36,7 +40,7 @@ return(
 					<h3>Planning to visit the beautiful places in Kolkata?</h3>
 					<p className="m-0">We are here to serve you the best experience.</p>
 					<p>Get in touch.</p>
-					<button type="button" className="btn">Contact us</button>
+					<button type="button" className="btn" onClick={usrAlert}>Contact us</button>
 				</div>
 			</div>
 			<div className="col-md-6">

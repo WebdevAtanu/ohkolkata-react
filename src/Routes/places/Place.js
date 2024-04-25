@@ -7,7 +7,7 @@ return(
 	
 	<div className="container popular">
 		<div className="text-center">
-			<h3 className="">Most popular places</h3>
+			<h3 className="mt-5">Most popular places</h3>
 			<hr></hr>
 		</div>
 		{/* place cards */}
@@ -164,6 +164,76 @@ return(
 						<div className="card-body">
 							<h5 className="card-title">Indian Museum</h5>
 							<p className="card-text">The Indian Museum is a massive museum in Central Kolkata. It is the ninth oldest museum in the world and the oldest and largest museum in India and Asia, by size of collection. It has rare collections of antiques, armour and ornaments, fossils, skeletons, mummies and Mughal paintings. <span><a href="#" className="card-link">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+								<path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+							</svg></a></span></p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="col-md-6 col-sm-6 col-xs-12">
+				<div className="container d-flex justify-content-center h-100">
+					<div className="card">
+						<img src="image/place/Thakurbari.jpg" className="card-img-top" alt=""/>
+						<div className="card-body">
+							<h5 className="card-title">Jorasanko Thakur Bari</h5>
+							<p className="card-text">Jorasanko Thakur Bari in Jorasanko, North Kolkata, West Bengal, India, is the ancestral home of the Tagore family. It is the birthplace of poet Rabindranath Tagore and the host of the Rabindra Bharati University campus. <span><a href="#" className="card-link">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+								<path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+							</svg></a></span></p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="col-md-6 col-sm-6 col-xs-12">
+				<div className="container d-flex justify-content-center h-100">
+					<div className="card">
+						<img src="image/place/fort.jpg" className="card-img-top" alt=""/>
+						<div className="card-body">
+							<h5 className="card-title">Fort William</h5>
+							<p className="card-text">Fort William is a fort built in Kolkata on the eastern banks of the River Hooghly, the major distributary of Ganges. The magnificent structure is embellished with hundreds of arched windows that overlook lush green gardens. Meticulous stonework adorns the surface of the building. <span><a href="#" className="card-link">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+								<path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+							</svg></a></span></p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="col-md-6 col-sm-6 col-xs-12">
+				<div className="container d-flex justify-content-center h-100">
+					<div className="card">
+						<img src="image/place/marble palace.jpg" className="card-img-top" alt=""/>
+						<div className="card-body">
+							<h5 className="card-title">Marble Palace</h5>
+							<p className="card-text">The Marble palace near the Chorbagan in North Kolkata built in 1835 by Rajendra Mallick is famed for its art collection of masterpieces by Reuben and paintings by various renowned international artists such as Reynolds, Van Gogh and Rembrandt. <span><a href="#" className="card-link">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+								<path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+							</svg></a></span></p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="col-md-6 col-sm-6 col-xs-12">
+				<div className="container d-flex justify-content-center h-100">
+					<div className="card">
+						<img src="image/place/rajbari.jpg" className="card-img-top" alt=""/>
+						<div className="card-body">
+							<h5 className="card-title">Shobhabazar Rajbari</h5>
+							<p className="card-text">The Shobhabazar Rajbari is one of the grandest Bengali style houses ever built. It was build by the Royal family of Shobhabazar in Kolkata, and the grandeur is only palpable to the eye. <span><a href="#" className="card-link">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+								<path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+							</svg></a></span></p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="col-md-6 col-sm-6 col-xs-12">
+				<div className="container d-flex justify-content-center h-100">
+					<div className="card">
+						<img src="image/place/maidan.jpg" className="card-img-top" alt=""/>
+						<div className="card-body">
+							<h5 className="card-title">Maidan</h5>
+							<p className="card-text">Also known as the Brigade Parade Ground, Maidan is the largest urban park in Kolkata. The humongous stretch of land includes the famous Eden Gardens, several football stadiums and the Race Course Kolkata. <span><a href="#" className="card-link">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
 								<path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
 							</svg></a></span></p>
 							
