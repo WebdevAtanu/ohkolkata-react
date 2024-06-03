@@ -12,14 +12,42 @@ body {
 
 h1 {
 	font-family: "Bungee Inline", sans-serif;
-	color: #15c79f;
-	font-size: 5rem;
+	font-size: 5rem;/*	color:red;*/
+	animation: colorChange 20s linear infinite;
+}
+
+@keyframes colorChange {
+	0% {
+		color: #1584c7;
+	}
+
+	25% {
+		color: #15c79f;
+	}
+
+	50% {
+		color: #6e3dab;
+	}
+
+	75% {
+		color: #15c79f;
+	}
+
+	100% {
+		color: #1584c7;
+	}
+
 }
 
 h3 {
 	color: white;
 	font-family: "Average", serif;
 	display: inline-block;
+}
+
+h5 {
+	color: white;
+	font-family: "Average", serif;
 }
 
 hr {
@@ -33,18 +61,24 @@ hr {
 .navbar {
 	background: #142b3b !important;
 }
-.navbar-brand{
-	width:5%;
-	& img{
-		width:100%;
+
+.navbar-brand {
+	width: 5%;
+
+	& img {
+		width: 100%;
 	}
+
 }
+
 .nav-link {
 	color: white !important;
 	font-family: "Average", serif;
-	&:hover{
-		color:#ff7010 !important;
+
+	&:hover {
+		color: #ff7010 !important;
 	}
+
 }
 
 .navbar-toggler {
@@ -56,9 +90,11 @@ hr {
 	}
 
 }
+
 .navbar-collapse {
-    transition: all 0.8s ease;
+	transition: all 0.8s ease;
 }
+
 .myintro {
 	& p {
 		font-family: "Average", serif;
@@ -165,4 +201,28 @@ hr {
 	width: 100%;
 	aspect-ratio: 1/0.3;
 	border-radius: 1rem;
+	animation: hue 10s linear infinite;
+}
+
+@keyframes hue {
+	0% {
+		filter: hue-rotate(72deg);
+	}
+
+	25% {
+		filter: hue-rotate(144deg);
+	}
+
+	50% {
+		filter: hue-rotate(216deg);
+	}
+
+	75% {
+		filter: hue-rotate(288deg);
+	}
+
+	100% {
+		filter: hue-rotate(360deg);
+	}
+
 }

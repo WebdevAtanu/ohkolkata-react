@@ -1,20 +1,36 @@
+import {useState} from "react";
 import "./style.css";
 import "./phone.css";
-// import {test} from "./test.js";
 export function Intro(){
 	function usrAlert(){
 	alert("Available Soon");
 }
+let [caption, changeCaption]=useState("Eden Gardens is an international cricket stadium in Kolkata.");
+function captionChange(e){
+	let imgId=e.target.id;
+	switch(imgId){
+	case "i1":
+		changeCaption("Birla Mandir is a Hindu temple on Asutosh Chowdhury Avenue, Ballygunge.");
+		break;
+		case "i2":
+		changeCaption("Princep Ghat is one of the oldest recreational spots of Kolkata.");
+		break;
+		case "i3":
+		changeCaption("Eden Gardens is an international cricket stadium in Kolkata.");
+		break;
+	}
+	}
+
 return(
 <div>
-	{/* navbar */}
+{/* navbar */}
 	<nav className="navbar navbar-expand-lg">
 		<div className="container-fluid">
 			<a className="navbar-brand" href="#"><img src="./image/logo.png" alt=""/></a>
 			<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
-  <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-</svg></span>
+  			<path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+			</svg></span>
 			</button>
 			<div className="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -28,6 +44,7 @@ return(
 						<a className="nav-link" href="#">Blog</a>
 					</li>
 				</ul>
+
 			</div>
 		</div>
 	</nav>
@@ -41,14 +58,15 @@ return(
 					<p className="m-0">We are here to serve you the best experience.</p>
 					<p>Get in touch.</p>
 					<button type="button" className="btn" onClick={usrAlert}>Contact us</button>
+					<h5 className="m-0 mt-5 mb-2">{caption}</h5>
 				</div>
 			</div>
 			<div className="col-md-6">
 				<div className="container">
 					<div className="d-flex flex-column align-items-center position-relative images">
-						<img src="./image/intro/birla.jpg" alt="" id="i1"/>
-						<img src="./image/intro/princep.jpg" alt="" id="i2"/>
-						<img src="./image/intro/eden.jpg" alt="" id="i3"/>
+						<img src="./image/intro/birla.jpg" alt="" id="i1" onMouseOver={captionChange}/>
+						<img src="./image/intro/princep.jpg" alt="" id="i2" onMouseOver={captionChange}/>
+						<img src="./image/intro/eden.jpg" alt="" id="i3" onMouseOver={captionChange}/>
 					</div>
 				</div>
 			</div>
@@ -67,9 +85,6 @@ return(
 	<div className="container g-0 mb-4">
 		<img src="./image/joy.jpg" alt="" id="joy"/>
 	</div>
-	
-	
-	
 </div>
 )
 }
