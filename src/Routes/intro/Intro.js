@@ -1,9 +1,10 @@
 import {useState} from "react";
 import "./style.css";
 import "./phone.css";
+import { toast } from 'react-toastify';
 export function Intro(){
 	function usrAlert(){
-	alert("Available Soon");
+	toast("Available Soon");
 }
 let [caption, changeCaption]=useState("Eden Gardens is an international cricket stadium in Kolkata.");
 function captionChange(e){
